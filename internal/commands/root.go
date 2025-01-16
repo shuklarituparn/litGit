@@ -2,6 +2,7 @@ package commands
 
 import (
 	"fmt"
+	"github.com/shuklarituparn/litGit/pkg/version"
 	"github.com/spf13/cobra"
 	"os"
 )
@@ -43,6 +44,7 @@ func init() {
 		yeetCmd,
 		yoinkCommand,
 		betCommand,
+		version.VersionCmd,
 	)
 
 }
