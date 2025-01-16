@@ -77,9 +77,12 @@ Here’s a list of all the cool commands you can use:
         1. Rename `yh-windows-amd64.exe` to a shorter name if needed.
         2. Add the directory containing `yh-windows-amd64.exe` to your `PATH` environment variable.
 - Run it from anywhere using:
--
-```bash
-yh <command>
+
+
+   ```bash
+      yh <command>
+   ```
+
 
 ---
 
